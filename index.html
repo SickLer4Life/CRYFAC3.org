@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://js.stripe.com/v3/"></script>
+    <title>CRYFAC3</title>
+</head>
+<body>
+    <div class="nav" style="color: white;">
+        <ul>
+            <li><a id="nav-link" href="#"><span class="material-symbols-outlined" style="position: relative; bottom: 3px; color: #F0C964;">home</span></a></li>
+            <li><a id="nav-link" href="news.asp">News</a></li>
+            <li><a id="nav-link" href="contact.asp">Contact</a></li>
+            <li><a id="nav-link" href="about.asp">About</a></li>
+            <button id="browse-nav">Browse</button>
+        </ul>
+    </div>
+    <div class="head" style="font-family: 'Style Script', cursive; font-size: 35px;">
+        <div style="float: left; position: absolute; left: 300px; top: 100px; text-align: left;">
+            <h2 style="position: relative; top: 40px;"><b>lets hack</b></h2>
+            <h1><b>Today!</b></h1>
+            <div style="font-family: 'Roboto', sans-serif; color: grey; font-size: 10px; text-align: left;">
+                <span><span style="color: #dd1c1c;">WARNING:</span> On this site you can find game cheats and other,</span><br>
+                <span>harmfull products. If you wish to purchase these products,</span><br>
+                <span>you understand they are for educational purposes only!</span><br>
+                <span>Do "NOT" use any purchaseable software in online lobbies or in any</span><br>
+                <span>illegal scenarios.</span><br>
+                <span>We encourage you to take apart the source code and learn how these tools work.</span><br>
+                <span>If you do decide to test any software do it in on a local server or game lobby. </span>
+            </div>
+        </div>
+        <img src="./logo.png" alt="" width="62%" height="62%" id="logo">
+    </div><br><br><br>
+    <div class="body-main"><br><br>
+        <div class="about" style="text-align: left; float: right; position: relative; right: 250px; top: 0; background-color: #191817; border: #191817 1px solid; border-radius: 5px; width: max-content; height: max-content; padding: 20px;">
+            <h2 style="color: #F0C964;">About Us</h2>
+            <div style="color: grey; font-size: 13px; text-align: left;">
+                <span>We are an ethical community of software</span><br>
+                <span>engineers. We develop products to help teach</span><br>
+                <span>Ethical and Modern game hacking.</span><br>
+                <span>We ask that you don't use ANY software for malicious</span><br>
+                <span>activitys as that is not what we stand for.</span><br>
+                <span>Our aim is that you use the purchaseable software</span><br> 
+                <span>to learn about how such cheats and programs are developed.</span><br><br><br>
+                <button id="socials">Socials.</button><button id="more-info">More Info</button>
+            </div>
+        </div>
+        <div style="text-align: left; margin-left: 200px;">
+            <h2 style="color: #F0C964;">Software</h2>
+            <div style="color: grey; font-size: 13px;">
+                <span>To send any cheats you have found message <br> us on reedit </span>
+                <span>@r/CRYFAC3</span><br>
+                <span>Cheers!!</span><br><br><br>
+                <div>
+                    <div style="border: 1px solid #191817; background-color: #191817; width: 30%; height: 100px; padding: 10px 10px;">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/csgo-283070.png" alt="" width="20%" height="60%" style="position: relative; top: 5px;">
+                        <div style="float: right; text-align: left; position: relative; right: 60px;">
+                            <p>CS:GO - Wallhacks/Glow Cheat.</p><p>Written In Python.</p> <button id="buy-c">$10.50</button>
+                        </div>
+                    </div><br><br>
+                    <div>
+                        <div style="border: 1px solid #191817; background-color: #191817; width: 30%; height: 100px; padding: 10px 10px;">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Geometry_Dash_Logo.PNG" alt="" width="20%" height="70%" style="position: relative; top: 5px;">
+                            <div style="float: right; text-align: left; position: relative; right: 50px;">
+                                <p>Geometry Dash God-Mode Cheat.</p><p>Written In Python.</p> <button id="buy-g">$4.50</button>
+                            </div>
+                        </div>
+                    </div><br><br>
+                    <div>
+                        <div style="border: 1px solid #191817; background-color: #191817; width: 30%; height: 100px; padding: 10px 10px;">
+                            <img src="https://www.citypng.com/public/uploads/preview/-41606664698rajsau8ab7.png" alt="" width="20%" height="70%" style="position: relative; top: 5px;">
+                            <div style="float: right; text-align: left; position: relative; right: 97px;">
+                                <p>Roblox God-Mode Cheat.</p><p>Written In Python.</p> <button id="buy-r">$4.50</button>
+                            </div>
+                        </div>
+                    </div><br><br>
+                    <div>
+                        <div style="border: 1px solid #191817; background-color: #191817; width: 30%; height: 100px; padding: 10px 10px;">
+                            <img src="https://www.kindpng.com/picc/m/87-876543_best-terraria-icon-terraria-transparent-hd-png-download.png" alt="" width="20%" height="70%" style="position: relative; top: 5px;">
+                            <div style="float: right; text-align: left; position: relative; right: 92px;">
+                                <p>Terraria God-Mode Cheat.</p><p>Written In Python.</p> <button id="buy-t">$4.50</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var stripe = Stripe(
+            "pk_test_51MBpR0F3ubJKjWG156C5odGVlqi2wu8oVPSsRoRFgNvbOHi50K4VSARkcLWcwCSTxHDL1737wNnlrL1rwZjCOAI600voh2sdG6"
+        )
+
+        document.getElementById('buy-c').addEventListener("click", function(){
+            stripe.redirectToCheckout({
+                lineItems: [
+                    {
+                        price: "price_1MEq8vF3ubJKjWG1wNZXX0I8",
+                        quantity: 1,
+                    },
+                ],
+                mode: "payment",
+                successUrl: "https://www.quackpack.org/pages/thanks.html",
+                cancelUrl: "https://www.twitter.com/",
+            })
+            .then(function(result){
+                alert(result)
+            });
+        })
+        document.getElementById('buy-g').addEventListener("click", function(){
+            stripe.redirectToCheckout({
+                lineItems: [
+                    {
+                        price: "price_1MDmz9F3ubJKjWG1Oeyubvsq",
+                        quantity: 1,
+                    },
+                ],
+                mode: "payment",
+                successUrl: "https://www.quackpack.org/pages/thanks.html",
+                cancelUrl: "https://www.twitter.com/",
+            })
+            .then(function(result){
+                alert(result)
+            });
+        })
+        document.getElementById('buy-r').addEventListener("click", function(){
+            stripe.redirectToCheckout({
+                lineItems: [
+                    {
+                        price: "price_1MDmz9F3ubJKjWG1Oeyubvsq",
+                        quantity: 1,
+                    },
+                ],
+                mode: "payment",
+                successUrl: "https://www.quackpack.org/pages/thanks.html",
+                cancelUrl: "https://www.twitter.com/",
+            })
+            .then(function(result){
+                alert(result)
+            });
+        })
+        document.getElementById('buy-t').addEventListener("click", function(){
+            stripe.redirectToCheckout({
+                lineItems: [
+                    {
+                        price: "price_1MDmz9F3ubJKjWG1Oeyubvsq",
+                        quantity: 1,
+                    },
+                ],
+                mode: "payment",
+                successUrl: "https://www.quackpack.org/pages/thanks.html",
+                cancelUrl: "https://www.twitter.com/",
+            })
+            .then(function(result){
+                alert(result)
+            });
+        })
+    </script>
+</body>
+</html>

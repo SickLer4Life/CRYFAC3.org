@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Style+Script&display=swap');
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    background-color: #191817;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#browse-nav {
+    background-color: #F0C964;
+    color: #191817;
+    font-size: 17px;
+    padding: 10px 30px;
+    border: #F0C964 1px solid;
+    float: right;
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 60
+}
+
+#nav-link:hover {
+    font-size: 18px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#logo {
+    -webkit-animation: mover 1.8s infinite  alternate;
+    animation: mover 1.8s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+
+.body-main {
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 1000px;
+}
+
+#buy-c {
+    background-color: #5765F3;
+    color: white;
+    width: 60%;
+    height: 20%;
+    border: #5765F3 1px solid;
+    border-radius: 5px;
+}
+
+#buy-g {
+    background-color: #5765F3;
+    color: white;
+    width: 60%;
+    height: 20%;
+    border: #5765F3 1px solid;
+    border-radius: 5px;
+}
+
+#buy-r {
+    background-color: #5765F3;
+    color: white;
+    width: 60%;
+    height: 20%;
+    border: #5765F3 1px solid;
+    border-radius: 5px;
+}
+
+#buy-t {
+    background-color: #5765F3;
+    color: white;
+    width: 60%;
+    height: 20%;
+    border: #5765F3 1px solid;
+    border-radius: 5px;
+}
+
+#socials {
+    background-color: #5765F3;
+    color: white;
+    width: 30%;
+    height: 40px;
+    border: #5765F3 1px solid;
+    border-radius: 5px;
+}
+
+#more-info {
+    background-color: #191817;
+    color: #5765F3;
+    width: 30%;
+    height: 40px;
+    border: #5765F3 1px solid;
+    border-radius: 5px;
+    margin-left: 10px;
+}
